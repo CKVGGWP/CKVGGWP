@@ -1,0 +1,36 @@
+@media screen and (max-width: 1199px) {
+    
+    #header {
+        left: -300px;
+    }
+
+    #main {
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    
+    #hero {
+        background-attachment: fixed;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    #hero {
+
+        h1 {
+            font-size: 28px;
+            line-height: 36px;
+        }
+
+        h2 {
+            font-size: 18px;
+            line-height: 24px;
+            margin-bottom: 30px;
+        }
+    }
+}
