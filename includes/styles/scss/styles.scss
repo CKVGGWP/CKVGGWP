@@ -17,6 +17,33 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $secondary-font-family;
 }
 
+.back-to-top {
+    position: fixed;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    right: 15px;
+    bottom: 15px;
+    background: $hover-color;
+    color: $white-color;
+    transition: display 0.5s ease-in-out;
+    z-index: 9999999;
+
+    i {
+        font-size: 24px;
+        position: absolute;
+        top: 7px;
+        left: 8px;
+    }
+
+    &:hover {
+        color: $white-color;
+        background: #2eafec;
+        transition: background 0.2s ease-in-out;
+    }
+}
+
 #header {
     position: fixed;
     top: 0;
@@ -24,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
     bottom: 0;
     width: 300px;
     transition: all ease-in-out 0.5s;
-    z-index: 9999999;
+    z-index: 9;
     transition: all 0.5s;
     padding: 0 15px;
     background: #040b14;
@@ -428,15 +455,15 @@ section {
                 text-align: center;
                 background: rgba(20, 157, 221, 0.75);
                 transition: 0.3s;
-                width: 50%;
+                width: 100%;
 
-                &.hover{
+                &:hover{
                     background: rgba(20, 157, 221, 0.95);
                 }
             }
 
             a + a {
-                border-left: 1px solid #37b3ed;
+                border-left: 1px solid  $hover-color;
             }
         }
 
@@ -543,7 +570,7 @@ section {
         .validate {
             display: none;
             color: #ff0000;
-            margin: 0 0 15px 0;
+            margin: 0 0 10px 0;
             font-weight: 400;
             font-size: 13px;
         }
@@ -589,9 +616,73 @@ section {
                 animation: animate-loading 1s linear infinite;
             }
         }
+
+        input, textarea {
+            border-radius: 0;
+            box-shadow: none;
+            font-size: 14px;
+        }
+
+        input {
+            height: 44px;
+        }
+
+        textarea {
+            padding: 10px 12px;
+        }
+
+        button[type="submit"] {
+            background: $hover-color;
+            border: 0;
+            padding: 10px 24px;
+            color: $white-color;
+            transition: 0.4s;
+            border-radius: 4px;
+
+            &:hover {
+                background: $hover-color;
+            }
+        }
     }
 }
 
+@-webkit-keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#footer {
+    padding: 15px;
+    color: #f4f6fd;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 9;
+    background: #040b14;
+}
+
+#footer .credits {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 13px;
+    color: #eaebf0;
+}
 
 
 // Media Queries

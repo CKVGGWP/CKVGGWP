@@ -51,13 +51,19 @@
 
     <!-- Footer -->
 
-    <footer>
+    <footer id="footer">
 
         <?php include('views/footer/footer.php'); ?>
 
     </footer>
 
     <!-- End Footer -->
+
+    <!-- Start of Back to Top -->
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+    <!-- End of Back to Top -->
 
     <!-- Start of Scripts -->
 

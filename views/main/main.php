@@ -134,8 +134,7 @@
 <section id="portfolio" class="portfolio section-bg">
     <div class="container">
         <div class="section-title">
-            <h2>Portfolio</h2>
-            <p>Here are the different systems that I/our team developed</p>
+            <h2>Projects and Certificates</h2>
         </div>
         <div class="row" data-aos="fade-up">
             <div class="col-lg-12 d-flex justify-content-center">
@@ -148,30 +147,152 @@
             </div>
         </div>
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
-                    <img src="includes/images/cover.jpg" class="img-fluid" alt="">
+                    <img src="includes/images/projects/cupKsindulgence/frontpage.png" class="img-fluid" alt="cup K's indulgence">
                     <div class="portfolio-links">
-                        <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                        <a href="includes/images/projects/cupKsindulgence/frontpage.png" data-gall="portfolioGallery" class="venobox" title="cup K's indulgence Website"><i class="far fa-eye"></i></a>
+                        <a href="portfolio-details.php?id=cupKs" title="More Details"><i class="bx bx-link"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
-                    <img src="includes/images/cover.jpg" class="img-fluid" alt="">
+                    <img src="includes/images/projects/cupKsAdmin/front.png" class="img-fluid" alt="cup K's indulgence Admin Page">
                     <div class="portfolio-links">
-                        <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                        <a href="includes/images/projects/cupKsAdmin/front.png" data-gall="portfolioGallery" class="venobox" title="cup K's indulgence Admin Page"><i class="far fa-eye"></i></a>
+                        <a href="portfolio-details.php?id=cupKsAdmin" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                    <img src="includes/images/projects/portfolio/frontpage.png" class="img-fluid" alt="Portfolio Website">
+                    <div class="portfolio-links">
+                        <a href="includes/images/projects/portfolio/frontpage.png" data-gall="portfolioGallery" class="venobox" title="Portfolio Website"><i class="far fa-eye"></i></a>
+                        <a href="portfolio-details.php?id=portfolio" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
+                    <img src="includes/images/projects/link_saver/frontpage.png" class="img-fluid" alt="Link Saver for Chrome">
+                    <div class="portfolio-links">
+                        <a href="includes/images/projects/link_saver/frontpage.png" data-gall="portfolioGallery" class="venobox" title="Link Saver for Chrome"><i class="far fa-eye"></i></a>
+                        <a href="portfolio-details.php?id=linkSaver" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                    <img src="includes/images/projects/accounting/frontpage.png" class="img-fluid" alt="Accounting System">
+                    <div class="portfolio-links">
+                        <a href="includes/images/projects/accounting/frontpage.png" data-gall="portfolioGallery" class="venobox" title="Accounting System for Sunbo FPIP"><i class="far fa-eye"></i></a>
+                        <a href="portfolio-details.php?id=accounting" title="More Details"><i class="bx bx-link"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item filter-cert">
                 <div class="portfolio-wrap">
-                    <img src="includes/images/cover.jpg" class="img-fluid" alt="">
+                    <img src="includes/images/cert/machineLearningInJava.png" class="img-fluid" alt="Introduction to Artificial Intelligence with Machine Learning in Java">
                     <div class="portfolio-links">
-                        <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                        <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                        <a href="includes/images/cert/machineLearningInJava.png" data-gall="portfolioGallery" class="venobox" title="Introduction to Artificial Intelligence with Machine Learning in Java"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-cert">
+                <div class="portfolio-wrap">
+                    <img src="includes/images/cert/RoutingAndSwitching.png" class="img-fluid" alt="Introduction to Routing and Switching using Cisco Devices">
+                    <div class="portfolio-links">
+                        <a href="includes/images/cert/RoutingAndSwitching.png" data-gall="portfolioGallery" class="venobox" title="Introduction to Routing and Switching using Cisco Devices"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-cert">
+                <div class="portfolio-wrap">
+                    <img src="includes/images/cert/graphics101.png" class="img-fluid" alt="Graphics 101">
+                    <div class="portfolio-links">
+                        <a href="includes/images/cert/graphics101.png" data-gall="portfolioGallery" class="venobox" title="Graphics 101"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-cert">
+                <div class="portfolio-wrap">
+                    <img src="includes/images/cert/graphics102.png" class="img-fluid" alt="Graphics 102">
+                    <div class="portfolio-links">
+                        <a href="includes/images/cert/graphics102.png" data-gall="portfolioGallery" class="venobox" title="Graphics 102"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-cert">
+                <div class="portfolio-wrap">
+                    <img src="includes/images/cert/websiteDesign.png" class="img-fluid" alt="App and Website Design using Figma for UI/UX">
+                    <div class="portfolio-links">
+                        <a href="includes/images/cert/websiteDesign.png" data-gall="portfolioGallery" class="venobox" title="App and Website Design using Figma for UI/UX"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-cert">
+                <div class="portfolio-wrap">
+                    <img src="includes/images/cert/machineLearning.png" class="img-fluid" alt="Machine Learning">
+                    <div class="portfolio-links">
+                        <a href="includes/images/cert/machineLearning.png" data-gall="portfolioGallery" class="venobox" title="Machine Learning"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-cert">
+                <div class="portfolio-wrap">
+                    <img src="includes/images/cert/micropython4.png" class="img-fluid" alt="MicroPython Series #4: Intermediate Python and the MicroPython Runtime Environment">
+                    <div class="portfolio-links">
+                        <a href="includes/images/cert/micropython4.png" data-gall="portfolioGallery" class="venobox" title="MicroPython Series #4: Intermediate Python and the MicroPython Runtime Environment"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-cert">
+                <div class="portfolio-wrap">
+                    <img src="includes/images/cert/micropython5.png" class="img-fluid" alt="MicroPython Series #5: Object Oriented Programming in MicroPython">
+                    <div class="portfolio-links">
+                        <a href="includes/images/cert/micropython5.png" data-gall="portfolioGallery" class="venobox" title="MicroPython Series #5: Object Oriented Programming in MicroPython"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-cert">
+                <div class="portfolio-wrap">
+                    <img src="includes/images/cert/codeScience.png" class="img-fluid" alt="CODE SCIENCE: Engaging to the World of Web Development">
+                    <div class="portfolio-links">
+                        <a href="includes/images/cert/codeScience.png" data-gall="portfolioGallery" class="venobox" title="CODE SCIENCE: Engaging to the World of Web Development"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-cert">
+                <div class="portfolio-wrap">
+                    <img src="includes/images/cert/OOPinC.png" class="img-fluid" alt="CODING IN THE REAL WORLD: Getting Started with Object Oriented Programming in c#">
+                    <div class="portfolio-links">
+                        <a href="includes/images/cert/OOPinC.png" data-gall="portfolioGallery" class="venobox" title="CODING IN THE REAL WORLD: Getting Started with Object Oriented Programming in c#"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-cert">
+                <div class="portfolio-wrap">
+                    <img src="includes/images/cert/DCodeX.png" class="img-fluid" alt="DCodeX: An Introduction on Project Management">
+                    <div class="portfolio-links">
+                        <a href="includes/images/cert/DCodeX.png" data-gall="portfolioGallery" class="venobox" title="DCodeX: An Introduction on Project Management"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-cert">
+                <div class="portfolio-wrap">
+                    <img src="includes/images/cert/AWS.png" class="img-fluid" alt="Getting Started with AWS Machine Learning">
+                    <div class="portfolio-links">
+                        <a href="includes/images/cert/AWS.png" data-gall="portfolioGallery" class="venobox" title="Getting Started with AWS Machine Learning"><i class="far fa-eye"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-cert">
+                <div class="portfolio-wrap">
+                    <img src="includes/images/cert/Java.png" class="img-fluid" alt="Java for Android">
+                    <div class="portfolio-links">
+                        <a href="includes/images/cert/Java.png" data-gall="portfolioGallery" class="venobox" title="Java for Android"><i class="far fa-eye"></i></a>
                     </div>
                 </div>
             </div>
@@ -210,23 +331,23 @@
                     <div class="row">
                         <div class="form-group col-md-6">
                             <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name" data-rule="minlen:2" data-msg="Please Enter at least 2 Valid Characters!">
+                            <input type="text" class="form-control" id="name" name="name" data-rule="minlen:2" data-msg="Please Enter at least 2 Valid Characters!">
                             <div class="validate"></div>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="email">Email Address</label>
-                            <input type="email" class="form-control" id="email" data-rule="email" data-msg="Please Enter a Valid Email Address!">
+                            <input type="email" class="form-control" id="email" name="email" data-rule="email" data-msg="Please Enter a Valid Email Address!">
                             <div class="validate"></div>
                         </div>
                     </div>
                     <div class="form-group">
                         <label for="subject">Subject</label>
-                        <input type="text" class="form-control" id="subject" data-rule="minlen:4" data-msg="Subject cannot be blank!">
+                        <input type="text" class="form-control" id="subject" name="subject" data-rule="minlen:4" data-msg="Subject cannot be blank!">
                         <div class="validate"></div>
                     </div>
                     <div class="form-group">
                         <label for="Message">Message</label>
-                        <textarea name="message" id="message" class="form-control" rows="10" data-rule="required" data-msg="Message cannot be blank!"></textarea>
+                        <textarea name="message" id="message" class="form-control" name="message" rows="10" data-rule="required" data-msg="Message cannot be blank!"></textarea>
                         <div class="validate"></div>
                     </div>
                     <div class="mb-3">
@@ -234,7 +355,7 @@
                         <div class="error-message"></div>
                         <div class="sent-message">Your message has been sent. Thank you!</div>
                     </div>
-                    <div class="text-center"><button type="submit" class="btn-primary p-2">Send Message</button></div>
+                    <div class="text-center"><button type="submit" name="sendMail">Send Message</button></div>
                 </form>
             </div>
         </div>
