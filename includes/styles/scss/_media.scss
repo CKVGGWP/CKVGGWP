@@ -39,4 +39,19 @@
             margin-bottom: 30px;
         }
     }
+
+    .portfolio-details {
+
+        .portfolio-description {
+
+            h2 {
+                width: 100%;
+            }
+        }
+
+        .portfolio-info {
+            position: static;
+            margin-top: 30px;
+        }
+    }
 }

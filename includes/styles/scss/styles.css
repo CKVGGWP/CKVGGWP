@@ -468,6 +468,99 @@ section {
   bottom: 0;
 }
 
+#projects {
+  padding: 20px 0;
+}
+
+.portfolio-details {
+  padding-top: 20px;
+}
+
+.portfolio-details .portfolio-details-container {
+  position: relative;
+  z-index: 1;
+}
+
+.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.portfolio-details .portfolio-details-carousel .owl-dot {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd !important;
+}
+
+.portfolio-details .portfolio-details-carousel .owl-dot.active {
+  background-color: #37b3ed !important;
+}
+
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  right: 0;
+  bottom: -70px;
+  background: #f5f8fd;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.portfolio-details .portfolio-info h3 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #173b6c;
+  color: #173b6c !important;
+}
+
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li + li {
+  margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0;
+}
+
+.technology {
+  padding: 30px;
+  right: 0;
+  bottom: -70px;
+  background: #f5f8fd;
+  -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.technology h3 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #173b6c;
+  color: #173b6c !important;
+}
+
+.technology .language {
+  gap: 2rem;
+}
+
+.technology i {
+  font-size: 60px;
+}
+
 .contact {
   padding-bottom: 130px;
 }
@@ -711,6 +804,13 @@ section {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+  .portfolio-details .portfolio-description h2 {
+    width: 100%;
+  }
+  .portfolio-details .portfolio-info {
+    position: static;
+    margin-top: 30px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

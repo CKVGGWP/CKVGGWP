@@ -91,7 +91,7 @@
 <section id="resume" class="resume">
     <div class="container">
         <div class="section-title">
-            <h2>Resume <a href="" download>Download Resume</a></h2>
+            <h2>Resume <a href="">View Full Resume</a> <a href="" download>Download Full Resume</a></h2>
         </div>
         <div class="row">
             <div class="col-lg-6" data-aos="fade-up">
@@ -141,6 +141,7 @@
                 <ul id="portfolio-filters">
                     <li data-filter="*" class="filter-active">All</li>
                     <li data-filter=".filter-app">App</li>
+                    <li data-filter=".filter-game">Games</li>
                     <li data-filter=".filter-web">Web</li>
                     <li data-filter=".filter-cert">Certificates</li>
                 </ul>
@@ -152,7 +153,7 @@
                     <img src="includes/images/projects/cupKsindulgence/frontpage.png" class="img-fluid" alt="cup K's indulgence">
                     <div class="portfolio-links">
                         <a href="includes/images/projects/cupKsindulgence/frontpage.png" data-gall="portfolioGallery" class="venobox" title="cup K's indulgence Website"><i class="far fa-eye"></i></a>
-                        <a href="portfolio-details.php?id=cupKs" title="More Details"><i class="bx bx-link"></i></a>
+                        <a href="portfolio-details.php?id=cup K's indulgence Website" title="More Details"><i class="bx bx-link"></i></a>
                     </div>
                 </div>
             </div>
@@ -161,7 +162,7 @@
                     <img src="includes/images/projects/cupKsAdmin/front.png" class="img-fluid" alt="cup K's indulgence Admin Page">
                     <div class="portfolio-links">
                         <a href="includes/images/projects/cupKsAdmin/front.png" data-gall="portfolioGallery" class="venobox" title="cup K's indulgence Admin Page"><i class="far fa-eye"></i></a>
-                        <a href="portfolio-details.php?id=cupKsAdmin" title="More Details"><i class="bx bx-link"></i></a>
+                        <a href="portfolio-details.php?id=cup Ks indulgence Admin Panel" title="More Details"><i class="bx bx-link"></i></a>
                     </div>
                 </div>
             </div>
@@ -170,7 +171,7 @@
                     <img src="includes/images/projects/portfolio/frontpage.png" class="img-fluid" alt="Portfolio Website">
                     <div class="portfolio-links">
                         <a href="includes/images/projects/portfolio/frontpage.png" data-gall="portfolioGallery" class="venobox" title="Portfolio Website"><i class="far fa-eye"></i></a>
-                        <a href="portfolio-details.php?id=portfolio" title="More Details"><i class="bx bx-link"></i></a>
+                        <a href="portfolio-details.php?id=Portfolio" title="More Details"><i class="bx bx-link"></i></a>
                     </div>
                 </div>
             </div>
@@ -179,7 +180,7 @@
                     <img src="includes/images/projects/link_saver/frontpage.png" class="img-fluid" alt="Link Saver for Chrome">
                     <div class="portfolio-links">
                         <a href="includes/images/projects/link_saver/frontpage.png" data-gall="portfolioGallery" class="venobox" title="Link Saver for Chrome"><i class="far fa-eye"></i></a>
-                        <a href="portfolio-details.php?id=linkSaver" title="More Details"><i class="bx bx-link"></i></a>
+                        <a href="portfolio-details.php?id=Chrome Link Saver" title="More Details"><i class="bx bx-link"></i></a>
                     </div>
                 </div>
             </div>
@@ -188,7 +189,16 @@
                     <img src="includes/images/projects/accounting/frontpage.png" class="img-fluid" alt="Accounting System">
                     <div class="portfolio-links">
                         <a href="includes/images/projects/accounting/frontpage.png" data-gall="portfolioGallery" class="venobox" title="Accounting System for Sunbo FPIP"><i class="far fa-eye"></i></a>
-                        <a href="portfolio-details.php?id=accounting" title="More Details"><i class="bx bx-link"></i></a>
+                        <a href="portfolio-details.php?id=Accounting System" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-game">
+                <div class="portfolio-wrap">
+                    <img src="includes/images/projects/game_practice/practice.png" class="img-fluid" alt="Practice Game">
+                    <div class="portfolio-links">
+                        <a href="includes/images/projects/game_practice/practice.png" data-gall="portfolioGallery" class="venobox" title="Practice Game"><i class="far fa-eye"></i></a>
+                        <a href="portfolio-details.php?id=Practice Game" title="More Details"><i class="bx bx-link"></i></a>
                     </div>
                 </div>
             </div>
