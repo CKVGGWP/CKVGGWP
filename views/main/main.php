@@ -26,8 +26,6 @@
                             <li><i class="icofont-rounded-right"></i><strong>Email : </strong>christiankyle.valdez@g.batstate-u.edu.ph</li>
                             <li><i class="icofont-rounded-right"></i><strong>Phone : </strong>+639997878537</li>
                             <li><i class="icofont-rounded-right"></i><strong>City : </strong>Lipa City</li>
-                            <li><i class="icofont-rounded-right"></i><strong>Birthday : </strong>27 November, 1999</li>
-                            <li><i class="icofont-rounded-right"></i><strong>Age : </strong>22</li>
                             <li><i class="icofont-rounded-right"></i><strong>Degree : </strong>Undergraduate Degree</li>
                         </ul>
                     </div>
@@ -91,17 +89,17 @@
 <section id="resume" class="resume">
     <div class="container">
         <div class="section-title">
-            <h2>Resume <a href="">View Full Resume</a> <a href="" download>Download Full Resume</a></h2>
+            <h2>Resume <a href="includes/files/CKV-Resume.pdf" target="_blank" rel="noreferrer noopener">View Full Resume</a> <a href="includes/files/CKV-Resume.pdf" download>Download Full Resume</a></h2>
         </div>
         <div class="row">
             <div class="col-lg-6" data-aos="fade-up">
                 <h3 class="resume-title">Summary</h3>
                 <div class="resume-item pb-0">
                     <h4>Christian Kyle Valdez</h4>
-                    <p><em>An Aspiring Web and Game Developer that aims to give quality work to his future clients as well as share his knowledge and skills to his others </em></p>
+                    <p><em>An Aspiring Web and Game Developer that aims to give quality work to his future clients as well as share his knowledge and skills to others </em></p>
                     <ul>
-                        <li>#7 Coras Aprt. Azucena St. City Park Subd. Sabang Lipa City, Batangas, PH</li>
-                        <li>(+639) 999 7878 537</li>
+                        <li>Lipa City, Batangas, PH</li>
+                        <li>(+63) 999 7878 537</li>
                         <li>christiankyle.valdez@g.batstate-u.edu.ph</li>
                     </ul>
                 </div>
@@ -120,6 +118,17 @@
                 </div>
             </div>
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <h3 class="resume-title">Extra/Co-curricular Activities</h3>
+                <div class="resume-item">
+                    <h4>Safety Officer at Association of Information Technology and Computer Science Students (AITeCSS)</h4>
+                    <h5>July 2021 - Present</h5>
+                    <p><em>Poblacion, Malvar, Batangas, PH</em></p>
+                </div>
+                <div class="resume-item">
+                    <h4>Public Information Officer at Association of Information Technology and Computer Science Students (AITeCSS)</h4>
+                    <h5>July 2019 - July 2021</h5>
+                    <p><em>Poblacion, Malvar, Batangas, PH</em></p>
+                </div>
                 <h3 class="resume-title">Professional Experience</h3>
                 <div class="resume-item">
                     <h4>Customer Service Representative at Alorica</h4>
@@ -321,7 +330,7 @@
                     <div class="address">
                         <i class="icofont-google-map"></i>
                         <h4>Location: </h4>
-                        <p>#7 Coras Aprt. Azucena St. City Park Subd. Sabang Lipa City, Batangas</p>
+                        <p>Lipa City, Batangas</p>
                     </div>
                     <div class="email">
                         <i class="icofont-envelope"></i>
@@ -333,7 +342,7 @@
                         <h4>Phone: </h4>
                         <p><a href="tel:+639997878537">+639997878537</a></p>
                     </div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d790.8267098291651!2d121.16747654904928!3d13.955216613554734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd6c9c878af781%3A0x88afe0215e899935!2sCity%20Park%20Subdivision%2C%20Lipa%2C%20Batangas!5e0!3m2!1sen!2sph!4v1640790021877!5m2!1sen!2sph" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123911.51808992402!2d121.09812889710342!3d13.944612047529384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd13576170055f%3A0xe6da25b39082662a!2sLipa%2C%20Batangas!5e0!3m2!1sen!2sph!4v1641340196605!5m2!1sen!2sph" width="100%" height="290px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
             <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
