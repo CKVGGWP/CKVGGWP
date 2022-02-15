@@ -131,6 +131,11 @@
                 </div>
                 <h3 class="resume-title">Professional Experience</h3>
                 <div class="resume-item">
+                    <h4>Web Developer Intern at Arktech Philippines Inc.</h4>
+                    <h5>January 2022 - Present</h5>
+                    <p><em>Lot 6B, Phase 1A, First Philippine Industrial Park, Sto Tomas, Batangas, 4234, PH</em></p>
+                </div>
+                <div class="resume-item">
                     <h4>Customer Service Representative at Alorica</h4>
                     <h5>April 2018 - May 2018</h5>
                     <p><em>2nd Floor, SM City Lipa, Ayala Highway, Lipa, Batangas, PH</em></p>
