@@ -164,6 +164,15 @@
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
+                    <img src="includes/images/projects/bsumalvarlibrary/frontpage.png" class="img-fluid" alt="BSU-OTRMS">
+                    <div class="portfolio-links">
+                        <a href="includes/images/projects/bsumalvarlibrary/frontpage.png" data-gall="portfolioGallery" class="venobox" title="Batangas State University JPLPC-Malvar Thesis Repository and Management System"><i class="far fa-eye"></i></a>
+                        <a href="portfolio-details.php?id=BSU-OTRMS" title="More Details"><i class="bx bx-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <div class="portfolio-wrap">
                     <img src="includes/images/projects/cupKsindulgence/frontpage.png" class="img-fluid" alt="cup K's indulgence">
                     <div class="portfolio-links">
                         <a href="includes/images/projects/cupKsindulgence/frontpage.png" data-gall="portfolioGallery" class="venobox" title="cup K's indulgence Website"><i class="far fa-eye"></i></a>

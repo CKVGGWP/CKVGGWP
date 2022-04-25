@@ -373,6 +373,79 @@
             </div>
         </div>
 
+    <?php } else if (getTitle() == "BSU-OTRMS") { ?>
+
+        <div class="container">
+            <div class="portfolio-details-container">
+                <div class="owl-carousel owl-theme portfolio-details-carousel">
+                    <img src="includes/images/projects/bsumalvarlibrary/frontpage.png" class="img-fluid" alt="Front Page">
+                    <img src="includes/images/projects/bsumalvarlibrary/notification.png" class="img-fluid" alt="Notification">
+                    <img src="includes/images/projects/bsumalvarlibrary/requestAdmin.png" class="img-fluid" alt="Admin Request Table">
+                    <img src="includes/images/projects/bsumalvarlibrary/requestHistory.png" class="img-fluid" alt="Request History">
+                    <img src="includes/images/projects/bsumalvarlibrary/requestUser.png" class="img-fluid" alt="User Request Table">
+                    <img src="includes/images/projects/bsumalvarlibrary/upload.png" class="img-fluid" alt="Upload Manuscript">
+                    <img src="includes/images/projects/bsumalvarlibrary/userDash.png" class="img-fluid" alt="User Dashboard">
+                    <img src="includes/images/projects/bsumalvarlibrary/viewManuscript.png" class="img-fluid" alt="View Manuscript">
+                    <img src="includes/images/projects/bsumalvarlibrary/login.png" class="img-fluid" alt="Login Page">
+                    <img src="includes/images/projects/bsumalvarlibrary/forgotPass.png" class="img-fluid" alt="Forgot Password">
+                    <img src="includes/images/projects/bsumalvarlibrary/register.png" class="img-fluid" alt="Registration Page">
+                    <img src="includes/images/projects/bsumalvarlibrary/download.png" class="img-fluid" alt="Download Manuscript">
+                    <img src="includes/images/projects/bsumalvarlibrary/password.png" class="img-fluid" alt="Password for Manuscript">
+
+                </div>
+            </div>
+        </div>
+        <div class="container mt-4">
+            <div class="row">
+                <div class="technology col-lg-6 col-md-6 col-sm-6">
+                    <h3>Some of the Features</h3>
+                    <ul class="overflow-auto">
+                        <li><strong>Login and Registration System</strong></li>
+                        <li><strong>View and Download Manuscript</strong></li>
+                        <li><strong>Approve/Decline Manuscript Upload/Request</strong></li>
+                        <li><strong>Add, Update, Delete Manuscript</strong></li>
+                        <li><strong>Real-Time System Notification</strong></li>
+                        <li><strong>Receive Email Notifications about Registration, Password/Email Changes, Manuscript Password</strong></li>
+                    </ul>
+                </div>
+                <div class="portfolio-info col-lg-6 col-md-6 col-sm-6">
+                    <h3>Other Information</h3>
+                    <ul>
+                        <li><strong>Project Type : </strong>Commissioned Capstone Project</li>
+                        <li><strong>Category : </strong>Web Application</li>
+                        <li><strong>Client : </strong>Private</li>
+                        <li><strong>Project URL : </strong><a href="www.bsumalvare-library.com" target="_blank" rel="noreferrer noopener">www.bsumalvare-library.com</a></li>
+                        <li><strong>GitHub Link : </strong><a href="https://github.com/CKVGGWP/BatStateU-Thesis-Repository-System" target="_blank" rel="noreferrer noopener">https://github.com/CKVGGWP/BatStateU-Thesis-Repository-System</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="technology col-lg-6 col-md-6 col-sm-6">
+                    <h3>Technologies Used</h3>
+                    <div class="d-flex justify-content-center align-items-center flex-wrap language">
+                        <i class="devicon-html5-plain-wordmark colored"></i>
+                        <i class="devicon-css3-plain-wordmark colored"></i>
+                        <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                        <i class="devicon-javascript-plain colored"></i>
+                        <i class="devicon-jquery-plain-wordmark colored"></i>
+                        <i class="devicon-php-plain colored"></i>
+                        <i class="devicon-mysql-plain-wordmark colored"></i>
+                        <i class="devicon-composer-line-wordmark colored"></i>
+                    </div>
+                </div>
+                <div class="technology col-lg-6 col-md-6 col-sm-6">
+                    <h3>Other Technologies Used</h3>
+                    <div class="d-flex justify-content-center align-items-center flex-wrap language">
+                        <ul>
+                            <li><strong>PHP Mailer</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     <?php } else { ?>
 
         <?php header("Location: index.php"); ?>
