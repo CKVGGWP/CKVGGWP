@@ -121,7 +121,7 @@
                 <h3 class="resume-title">Extra/Co-curricular Activities</h3>
                 <div class="resume-item">
                     <h4>Safety Officer at Association of Information Technology and Computer Science Students (AITeCSS)</h4>
-                    <h5>July 2021 - Present</h5>
+                    <h5>July 2021 - March 2022</h5>
                     <p><em>Poblacion, Malvar, Batangas, PH</em></p>
                 </div>
                 <div class="resume-item">
@@ -132,7 +132,7 @@
                 <h3 class="resume-title">Professional Experience</h3>
                 <div class="resume-item">
                     <h4>Web Developer Intern at Arktech Philippines Inc.</h4>
-                    <h5>January 2022 - Present</h5>
+                    <h5>January 2022 - May 2022</h5>
                     <p><em>Lot 6B, Phase 1A, First Philippine Industrial Park, Sto Tomas, Batangas, 4234, PH</em></p>
                 </div>
                 <div class="resume-item">
