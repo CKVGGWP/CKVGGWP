@@ -9,7 +9,7 @@
             <blockquote>And then, he finally pursued to take the course of Information Technology because he really loves computers.
                 He was on the verge of giving up, but he persisted regardless of the circumstances. He is now a fourth-year college student
                 at Batangas State University JPLPC-Malvar, where he is pursuing a Bachelor of Science in Information Technology Major
-                in Business Analytics. He is now enthusiastic about what he is doing and aspires to be a Web and Game Developer in the near future.
+                in Business Analytics. He is now enthusiastic about what he is doing.
             </blockquote>
             </p>
         </div>
@@ -96,7 +96,7 @@
                 <h3 class="resume-title">Summary</h3>
                 <div class="resume-item pb-0">
                     <h4>Christian Kyle Valdez</h4>
-                    <p><em>An Aspiring Web and Game Developer that aims to give quality work to his future clients as well as share his knowledge and skills to others </em></p>
+                    <p><em>A Web Developer that aims to give quality work to his future clients as well as share his knowledge and skills to others </em></p>
                     <ul>
                         <li>Lipa City, Batangas, PH</li>
                         <li>(+63) 999 7878 537</li>
