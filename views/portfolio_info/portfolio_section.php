@@ -41,7 +41,7 @@
                         <li><strong>Project Type : </strong>Capstone Project</li>
                         <li><strong>Category : </strong>Web Application</li>
                         <li><strong>Client : </strong>cup K's indulgence</li>
-                        <li><strong>Project URL : </strong><a href="www.cupksindulgence.com" target="_blank" rel="noreferrer noopener">www.cupksindulgence.com</a></li>
+                        <li><strong>Project URL : </strong><a href="https://www.cupksindulgence.com" target="_blank" rel="noreferrer noopener">www.cupksindulgence.com</a></li>
                         <li><strong>GitHub Link : </strong>
                             <span class="alert alert-danger p-1">Private</span>
                         </li>
@@ -182,7 +182,7 @@
                         <li><strong>Project Type : </strong>Portfolio</li>
                         <li><strong>Category : </strong>Web Application</li>
                         <li><strong>Client : </strong>N/A</li>
-                        <li><strong>Project URL : </strong><a href="www.cupksindulgence.com/Admin" target="_blank" rel="noreferrer noopener">www.cupksindulgence.com/Admin</a></li>
+                        <li><strong>Project URL : </strong><a href="https://www.cupksindulgence.com/Admin" target="_blank" rel="noreferrer noopener">www.cupksindulgence.com/Admin</a></li>
                         <li><strong>GitHub Link : </strong>
                             <a href="https://github.com/CKVGGWP/CKVGGWP" target="_blank" rel="noreferrer noopener">https://github.com/CKVGGWP/CKVGGWP</a>
                         </li>
@@ -414,7 +414,7 @@
                         <li><strong>Project Type : </strong>Commissioned Capstone Project</li>
                         <li><strong>Category : </strong>Web Application</li>
                         <li><strong>Client : </strong>Private</li>
-                        <li><strong>Project URL : </strong><a href="www.bsumalvare-library.com" target="_blank" rel="noreferrer noopener">www.bsumalvare-library.com</a></li>
+                        <li><strong>Project URL : </strong><a href="https://www.bsumalvare-library.com" target="_blank" rel="noreferrer noopener">www.bsumalvare-library.com</a></li>
                         <li><strong>GitHub Link : </strong><a href="https://github.com/CKVGGWP/BatStateU-Thesis-Repository-System" target="_blank" rel="noreferrer noopener">https://github.com/CKVGGWP/BatStateU-Thesis-Repository-System</a></li>
                     </ul>
                 </div>
