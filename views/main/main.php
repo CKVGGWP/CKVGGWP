@@ -56,6 +56,7 @@
                     <i class="devicon-css3-plain-wordmark colored"></i>
                     <i class="devicon-sass-original colored"></i>
                     <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                    <i class="devicon-tailwindcss-original-wordmark colored"></i>
                     <i class="devicon-javascript-plain colored"></i>
                     <i class="devicon-jquery-plain-wordmark colored"></i>
                 </div>
@@ -64,6 +65,7 @@
                 <h2 class="text-center mb-3 mt-5">Back End</h2>
                 <div class="col-md-12 skills-content d-flex flex-wrap align-items-center justify-content-center">
                     <i class="devicon-php-plain colored"></i>
+                    <i class="devicon-laravel-plain-wordmark colored"></i>
                     <i class="devicon-mysql-plain-wordmark colored"></i>
                     <i class="devicon-microsoftsqlserver-plain-wordmark colored"></i>
                 </div>
