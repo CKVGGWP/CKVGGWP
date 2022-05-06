@@ -6,9 +6,9 @@
             <blockquote>Christian Kyle Valdez previously worked as a Seasonal Customer Service Representative at Alorica PH and a Web Developer Intern at Arktech Philippines Inc. He had wanted to join the army since he was a child, but due to circumstances such as health issues (blurry vision) and his parents' decision, he was unable to pursue his dream career. As a result, he decided to pursue another course, which was Psychology. He was interested to pursue the course because of his teacher, who gave a deeper meaning to a simple chair. But then he realized that he is not happy to take such course.</blockquote>
             <br>
             <blockquote>And then, he finally pursued to take the course of Information Technology because he really loves computers.
-                He was on the verge of giving up, but he persisted regardless of the circumstances. He is now a fourth-year college student
+                He was on the verge of giving up, but he persisted regardless of the circumstances. He is now a graduating student
                 at Batangas State University JPLPC-Malvar, where he is pursuing a Bachelor of Science in Information Technology Major
-                in Business Analytics. He is now enthusiastic about what he is doing.
+                in Business Analytics. He is enthusiastic about what he is doing.
             </blockquote>
             </p>
         </div>
@@ -17,7 +17,7 @@
                 <img src="includes/images/profile.jpg" alt="Profile Image" class="img-fluid">
             </div>
             <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                <h3>Aspiring Web &amp; Game Developer.</h3>
+                <h3>Full Stack Web Developer</h3>
                 <div class="row">
                     <div class="col-lg-7">
                         <h2>Personal Details</h2>
