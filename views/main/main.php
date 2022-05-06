@@ -3,8 +3,7 @@
         <div class="section-title">
             <h2>About Me</h2>
             <p class="text-start">
-            <blockquote>Christian Kyle Valdez previously worked as a Seasonal Customer Service Representative at Alorica in the Philippines. He had wanted to join the army since he was a child, but due to circumstances such as health issues (blurry vision) and his parents' decision, he was unable to pursue his dream career.
-                As a result, he decided to pursue another course, which was Psychology. He was interested to pursue the course because of his teacher, who gave a deeper meaning to a simple chair. But then he realized that he is not happy to take such course.</blockquote>
+            <blockquote>Christian Kyle Valdez previously worked as a Seasonal Customer Service Representative at Alorica PH and a Web Developer Intern at Arktech Philippines Inc. He had wanted to join the army since he was a child, but due to circumstances such as health issues (blurry vision) and his parents' decision, he was unable to pursue his dream career. As a result, he decided to pursue another course, which was Psychology. He was interested to pursue the course because of his teacher, who gave a deeper meaning to a simple chair. But then he realized that he is not happy to take such course.</blockquote>
             <br>
             <blockquote>And then, he finally pursued to take the course of Information Technology because he really loves computers.
                 He was on the verge of giving up, but he persisted regardless of the circumstances. He is now a fourth-year college student
@@ -23,7 +22,7 @@
                     <div class="col-lg-7">
                         <h2>Personal Details</h2>
                         <ul>
-                            <li><i class="icofont-rounded-right"></i><strong>Email : </strong>christiankyle.valdez@g.batstate-u.edu.ph</li>
+                            <li><i class="icofont-rounded-right"></i><strong>Email : </strong>christianvaldez608@gmail.com</li>
                             <li><i class="icofont-rounded-right"></i><strong>Phone : </strong>+639997878537</li>
                             <li><i class="icofont-rounded-right"></i><strong>City : </strong>Lipa City</li>
                             <li><i class="icofont-rounded-right"></i><strong>Degree : </strong>Undergraduate Degree</li>
@@ -92,7 +91,8 @@
 <section id="resume" class="resume">
     <div class="container">
         <div class="section-title">
-            <h2>Resume <a href="includes/files/CKV-Resume.pdf" target="_blank" rel="noreferrer noopener">View Full Resume</a> <a href="includes/files/CKV-Resume.pdf" download>Download Full Resume</a></h2>
+            <h2>Resume <a href="includes/files/CKV-Resume.pdf" download>Download Full Resume</a></h2>
+            <!--<a href="includes/files/CKV-Resume.pdf" target="_blank" rel="noreferrer noopener">View Full Resume</a>-->
         </div>
         <div class="row">
             <div class="col-lg-6" data-aos="fade-up">
@@ -103,7 +103,7 @@
                     <ul>
                         <li>Lipa City, Batangas, PH</li>
                         <li>(+63) 999 7878 537</li>
-                        <li>christiankyle.valdez@g.batstate-u.edu.ph</li>
+                        <li>christianvaldez608@gmail.com</li>
                     </ul>
                 </div>
                 <h3 class="resume-title">Education</h3>
@@ -352,7 +352,7 @@
                     <div class="email">
                         <i class="icofont-envelope"></i>
                         <h4>Email: </h4>
-                        <p><a href="mailto:christiankyle.valdez@g.batstate-u.edu.ph">christiankyle.valdez@g.batstate-u.edu.ph</a></p>
+                        <p><a href="mailto:christianvaldez608@gmail.com">christianvaldez608@gmail.com</a></p>
                     </div>
                     <div class="phone">
                         <i class="icofont-phone"></i>
