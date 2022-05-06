@@ -91,7 +91,7 @@
 <section id="resume" class="resume">
     <div class="container">
         <div class="section-title">
-            <h2>Resume <a href="includes/files/CKV-Resume.pdf" download>Download Full Resume</a></h2>
+            <h2>Resume  <a href="includes/files/CKV-Resume.pdf" download>Download Full Resume</a></h2>
             <!--<a href="includes/files/CKV-Resume.pdf" target="_blank" rel="noreferrer noopener">View Full Resume</a>-->
         </div>
         <div class="row">
@@ -106,6 +106,19 @@
                         <li>christianvaldez608@gmail.com</li>
                     </ul>
                 </div>
+                <h3 class="resume-title">Professional Experience</h3>
+                <div class="resume-item">
+                    <h4>Web Developer Intern at Arktech Philippines Inc.</h4>
+                    <h5>January 2022 - May 2022</h5>
+                    <p><em>Lot 6B, Phase 1A, First Philippine Industrial Park, Sto Tomas, Batangas, 4234, PH</em></p>
+                </div>
+                <div class="resume-item">
+                    <h4>Customer Service Representative at Alorica</h4>
+                    <h5>April 2018 - May 2018</h5>
+                    <p><em>2nd Floor, SM City Lipa, Ayala Highway, Lipa, Batangas, PH</em></p>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                 <h3 class="resume-title">Education</h3>
                 <div class="resume-item">
                     <h4>Bachelor of Science in Information Technology Major in Business Analytics</h4>
@@ -119,8 +132,6 @@
                     <p>The Mabini Academy</p>
                     <p><em>Balintawak, Lipa City, Batangas, PH</em></p>
                 </div>
-            </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                 <h3 class="resume-title">Extra/Co-curricular Activities</h3>
                 <div class="resume-item">
                     <h4>Safety Officer at Association of Information Technology and Computer Science Students (AITeCSS)</h4>
@@ -131,17 +142,6 @@
                     <h4>Public Information Officer at Association of Information Technology and Computer Science Students (AITeCSS)</h4>
                     <h5>July 2019 - July 2021</h5>
                     <p><em>Poblacion, Malvar, Batangas, PH</em></p>
-                </div>
-                <h3 class="resume-title">Professional Experience</h3>
-                <div class="resume-item">
-                    <h4>Web Developer Intern at Arktech Philippines Inc.</h4>
-                    <h5>January 2022 - May 2022</h5>
-                    <p><em>Lot 6B, Phase 1A, First Philippine Industrial Park, Sto Tomas, Batangas, 4234, PH</em></p>
-                </div>
-                <div class="resume-item">
-                    <h4>Customer Service Representative at Alorica</h4>
-                    <h5>April 2018 - May 2018</h5>
-                    <p><em>2nd Floor, SM City Lipa, Ayala Highway, Lipa, Batangas, PH</em></p>
                 </div>
             </div>
         </div>
