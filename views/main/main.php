@@ -91,8 +91,8 @@
 <section id="resume" class="resume">
     <div class="container">
         <div class="section-title">
-            <h2>Resume  <a href="includes/files/CKV-Resume.pdf" download>Download Full Resume</a></h2>
-            <!--<a href="includes/files/CKV-Resume.pdf" target="_blank" rel="noreferrer noopener">View Full Resume</a>-->
+            <h2>Resume <a href="includes/files/CKV-Resume.pdf" target="_blank" rel="noreferrer noopener">View Full Resume</a> <a href="includes/files/CKV-Resume.pdf" download>Download Full Resume</a></h2>
+
         </div>
         <div class="row">
             <div class="col-lg-6" data-aos="fade-up">
