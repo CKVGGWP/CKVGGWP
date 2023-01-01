@@ -354,16 +354,16 @@ function getParameterByName(name, url) {
     if (ferror) return false;
 
     var this_form = $(this);
-    var action = $(this).attr("action");
+    // var action = $(this).attr("action");
 
-    if (!action) {
-      this_form.find(".loading").slideUp();
-      this_form
-        .find(".error-message")
-        .slideDown()
-        .html("The form action property is not set!");
-      return false;
-    }
+    // if (!action) {
+    //   this_form.find(".loading").slideUp();
+    //   this_form
+    //     .find(".error-message")
+    //     .slideDown()
+    //     .html("The form action property is not set!");
+    //   return false;
+    // }
 
     this_form.find(".sent-message").slideUp();
     this_form.find(".error-message").slideUp();
@@ -385,93 +385,37 @@ function getParameterByName(name, url) {
           });
       });
     } else {
+      let name = $("#name").val();
+      let email = $("#email").val();
+      let subject = $("#subject").val();
+      let message = $("#message").val();
+      let dateToday = new Date();
+      dateToday =
+        dateToday.getFullYear() +
+        "-" +
+        (dateToday.getMonth() + 1) +
+        "-" +
+        dateToday.getDate() +
+        " " +
+        dateToday.getHours() +
+        ":" +
+        dateToday.getMinutes() +
+        ":" +
+        dateToday.getSeconds();
+
+
+      let newMessage = `Hello! ${name} sent you a message. <br> <br> <b>Subject:</b> ${subject} <br> <b>Message:</b>${message} <br> <br> <b>Date Sent:</b> ${dateToday} <br> <b>Email:</b> ${email}`;
+
+      window.open(
+        `mailto:christiankyle.valdez@g.batstate-u.edu.ph?subject=${subject}&body=${newMessage}`,
+        "_blank"
+      );
+
+      this_form.find(".loading").slideUp();
+      this_form.find(".sent-message").slideDown();
     }
 
     return true;
   });
-
-  function submitEmail(this_form, action, data) {
-    var xmlHttp = new XMLHttpRequest();
-
-
-    $.ajax({
-      type: "POST",
-      url: action,
-      data: data,
-      timeout: 40000,
-    })
-      .done(function (msg) {
-        if (msg.trim() == "OK") {
-          this_form.find(".loading").slideUp();
-          this_form.find(".sent-message").slideDown();
-          this_form.find("input:not(input[type=submit]), textarea").val("");
-        } else {
-          this_form.find(".loading").slideUp();
-          if (!msg) {
-            msg =
-              "Form submission failed and no error message returned from: " +
-              action +
-              "<br>";
-          }
-          this_form.find(".error-message").slideDown().html(msg);
-        }
-      })
-      .fail(function (data) {
-        console.log(data);
-        var error_msg = "Form submission failed!<br>";
-        if (data.statusText || data.status) {
-          error_msg += "Status:";
-          if (data.statusText) {
-            error_msg += " " + data.statusText;
-          }
-          if (data.status) {
-            error_msg += " " + data.status;
-          }
-          error_msg += "<br>";
-        }
-        if (data.responseText) {
-          error_msg += data.responseText;
-        }
-        this_form.find(".loading").slideUp();
-        this_form.find(".error-message").slideDown().html(error_msg);
-      });
-  }
-
-  // get the data from the AJAX call
-  function getFormData($form) {
-    var unindexed_array = $form.serializeArray();
-    var indexed_array = {};
-
-    $.map(unindexed_array, function (n, i) {
-      indexed_array[n["name"]] = n["value"];
-    });
-
-    return indexed_array;
-  }
-  
-
-  // send the email using mailto
-  function sendEmail($form) {
-    var data = getFormData($form);
-    var email = data.email;
-    var subject = data.subject;
-    var message = data.message;
-    var cc = data.cc;
-    var bcc = data.bcc;
-    var mailto_link = "mailto:christianvaldez608@gmail.com";
-
-    // append cc and bcc
-    if (cc) {
-      mailto_link += "?cc=" + cc;
-    }
-    if (bcc) {
-      mailto_link += "&bcc=" + bcc;
-    }
-
-    // append subject and body
-    mailto_link += "&subject=" + subject + "&body=" + message;
-
-    window.open(mailto_link, "_blank");
-  }
 })(jQuery);
 </script>
