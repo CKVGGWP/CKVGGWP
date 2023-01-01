@@ -1,0 +1,477 @@
+<div class="container">
+    <div class="credits">
+        Designed by <a href="mailto:christianvaldez608@gmail.com">Christian Kyle Valdez</a>
+    </div>
+</div>
+
+<script>
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    // if name is empty find the first parameter
+    if (name == null) {
+        var regex = /[?&]([^=#]+)=([^&#]*)/g,
+        results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return "";
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    } else {
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return "";
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
+}
+
+!(function ($) {
+    "use strict";
+
+  // Hero typed
+  if ($(".typed").length) {
+    var typed_strings = $(".typed").data("typed-items");
+    typed_strings = typed_strings.split(",");
+    new Typed(".typed", {
+      strings: typed_strings,
+      loop: true,
+      typeSpeed: 50,
+      backSpeed: 50,
+      backDelay: 2000,
+    });
+  }
+
+  // Smooth scroll for the navigation menu and links with .scrollto classes
+  $(document).on("click", ".nav-menu a, .scrollto", function (e) {
+    if (
+      location.pathname.replace(/^\//, "") ==
+        this.pathname.replace(/^\//, "") &&
+      location.hostname == this.hostname
+    ) {
+      e.preventDefault();
+      var target = $(this.hash);
+      if (target.length) {
+        var scrollto = target.offset().top;
+
+        $("html, body").animate(
+          {
+            scrollTop: scrollto,
+          },
+          650,
+          "easeInOutExpo"
+        );
+
+        if ($(this).parents(".nav-menu, .mobile-nav").length) {
+          $(".nav-menu .active, .mobile-nav .active").removeClass("active");
+          $(this).closest("li").addClass("active");
+        }
+
+        if ($("body").hasClass("mobile-nav-active")) {
+          $("body").removeClass("mobile-nav-active");
+          $(".mobile-nav-toggle i").toggleClass(
+            "icofont-navigation-menu icofont-close"
+          );
+        }
+        return false;
+      }
+    }
+  });
+
+  // Activate smooth scroll on page load with hash links in the url
+  $(document).ready(function () {
+    if (window.location.hash) {
+      var initial_nav = window.location.hash;
+      if ($(initial_nav).length) {
+        var scrollto = $(initial_nav).offset().top;
+        $("html, body").animate(
+          {
+            scrollTop: scrollto,
+          },
+          650,
+          "easeInOutExpo"
+        );
+      }
+    }
+  });
+
+  $(document).on("click", ".mobile-nav-toggle", function (e) {
+    $("body").toggleClass("mobile-nav-active");
+    $(".mobile-nav-toggle i").toggleClass(
+      "icofont-navigation-menu icofont-close"
+    );
+  });
+
+  $(document).click(function (e) {
+    var container = $(".mobile-nav-toggle");
+    if (!container.is(e.target) && container.has(e.target).length === 0) {
+      if ($("body").hasClass("mobile-nav-active")) {
+        $("body").removeClass("mobile-nav-active");
+        $(".mobile-nav-toggle i").toggleClass(
+          "icofont-navigation-menu icofont-close"
+        );
+      }
+    }
+  });
+
+  // Navigation active state on scroll
+  var nav_sections = $("section");
+  var main_nav = $(".nav-menu, .mobile-nav");
+
+  $(window).on("scroll", function () {
+    var cur_pos = $(this).scrollTop() + 200;
+
+    nav_sections.each(function () {
+      var top = $(this).offset().top,
+        bottom = top + $(this).outerHeight();
+
+      if (cur_pos >= top && cur_pos <= bottom) {
+        if (cur_pos <= bottom) {
+          main_nav.find("li").removeClass("active");
+        }
+        main_nav
+          .find('a[href="#' + $(this).attr("id") + '"]')
+          .parent("li")
+          .addClass("active");
+      }
+      if (cur_pos < 300) {
+        $(".nav-menu ul:first li:first").addClass("active");
+      }
+    });
+  });
+
+  // Back to top button
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      $(".back-to-top").fadeIn("slow");
+    } else {
+      $(".back-to-top").fadeOut("slow");
+    }
+  });
+
+  $(".back-to-top").click(function () {
+    $("html, body").animate(
+      {
+        scrollTop: 0,
+      },
+      1500,
+      "easeInOutExpo"
+    );
+    return false;
+  });
+
+  // Porfolio isotope and filter
+  $(window).on("load", function () {
+    var portfolioIsotope = $(".portfolio-container").isotope({
+      itemSelector: ".portfolio-item",
+      layoutMode: "fitRows",
+    });
+
+    $("#portfolio-filters li").on("click", function () {
+      $("#portfolio-filters li").removeClass("filter-active");
+      $(this).addClass("filter-active");
+
+      portfolioIsotope.isotope({
+        filter: $(this).data("filter"),
+      });
+      aos_init();
+    });
+
+    // Initiate venobox (lightbox feature used in portofilo)
+    $(document).ready(function () {
+      $(".venobox").venobox();
+    });
+  });
+
+  // Portfolio details carousel
+  $(".portfolio-details-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    items: 1,
+  });
+
+  // Init AOS
+  function aos_init() {
+    AOS.init({
+      duration: 1000,
+      easing: "ease-in-out-back",
+      once: true,
+    });
+  }
+  $(window).on("load", function () {
+    aos_init();
+  });
+})(jQuery);
+</script>
+
+<script>
+    let headTitle = document.title;
+    let pageTitle = $("#pageTitle");
+    let parameterName = getParameterByName();
+    console.log(parameterName);
+
+    if (parameterName == "cup K's indulgence Website"){
+        headTitle = "Cup K's Indulgence Website";
+        pageTitle.text("Cup K's Indulgence Website");
+        $(".cupKs").removeClass("d-none");
+    } else if (parameterName == "cup Ks indulgence Admin Panel"){
+        headTitle = "Cup K's Indulgence Admin Panel";
+        pageTitle.text("Cup K's Indulgence Admin Panel");
+        $(".cupKsAdmin").removeClass("d-none");
+    } else if (parameterName == "Portfolio"){
+        headTitle = "Portfolio";
+        pageTitle.text("Portfolio");
+        $(".portfolio").removeClass("d-none");
+    } else if (parameterName == "Chrome Link Saver"){
+        headTitle = "Chrome Link Saver";
+        pageTitle.text("Chrome Link Saver");
+        $(".linkSaver").removeClass("d-none");
+    } else if (parameterName == "Accounting System"){
+        headTitle = "Accounting System";
+        pageTitle.text("Accounting System");
+        $(".accounting").removeClass("d-none");
+    } else if (parameterName == "Practice Game"){
+        headTitle = "Practice Game";
+        pageTitle.text("Practice Game");
+        $(".practice").removeClass("d-none");
+    } else if (parameterName == "BSU-OTRMS"){
+        headTitle = "Batangas State University Online Thesis Repository Management System";
+        pageTitle.text("Batangas State University Online Thesis Repository Management System");
+        $(".otrms").removeClass("d-none");
+    }
+
+    if (parameterName == null) headTitle = "Portfolio Website";
+    document.title = headTitle;
+
+!(function ($) {
+  "use strict";
+
+  $("form.php-email-form").submit(function (e) {
+    e.preventDefault();
+
+    var f = $(this).find(".form-group"),
+      ferror = false,
+      emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
+
+    f.children("input").each(function () {
+      // run all inputs
+
+      var i = $(this); // current input
+      var rule = i.attr("data-rule");
+
+      if (rule !== undefined) {
+        var ierror = false; // error flag for current input
+        var pos = rule.indexOf(":", 0);
+        if (pos >= 0) {
+          var exp = rule.substr(pos + 1, rule.length);
+          rule = rule.substr(0, pos);
+        } else {
+          rule = rule.substr(pos + 1, rule.length);
+        }
+
+        switch (rule) {
+          case "required":
+            if (i.val() === "") {
+              ferror = ierror = true;
+            }
+            break;
+
+          case "minlen":
+            if (i.val().length < parseInt(exp)) {
+              ferror = ierror = true;
+            }
+            break;
+
+          case "email":
+            if (!emailExp.test(i.val())) {
+              ferror = ierror = true;
+            }
+            break;
+
+          case "checked":
+            if (!i.is(":checked")) {
+              ferror = ierror = true;
+            }
+            break;
+
+          case "regexp":
+            exp = new RegExp(exp);
+            if (!exp.test(i.val())) {
+              ferror = ierror = true;
+            }
+            break;
+        }
+        i.next(".validate")
+          .html(
+            ierror
+              ? i.attr("data-msg") !== undefined
+                ? i.attr("data-msg")
+                : "wrong Input"
+              : ""
+          )
+          .show("blind");
+      }
+    });
+    f.children("textarea").each(function () {
+      // run all inputs
+
+      var i = $(this); // current input
+      var rule = i.attr("data-rule");
+
+      if (rule !== undefined) {
+        var ierror = false; // error flag for current input
+        var pos = rule.indexOf(":", 0);
+        if (pos >= 0) {
+          var exp = rule.substr(pos + 1, rule.length);
+          rule = rule.substr(0, pos);
+        } else {
+          rule = rule.substr(pos + 1, rule.length);
+        }
+
+        switch (rule) {
+          case "required":
+            if (i.val() === "") {
+              ferror = ierror = true;
+            }
+            break;
+
+          case "minlen":
+            if (i.val().length < parseInt(exp)) {
+              ferror = ierror = true;
+            }
+            break;
+        }
+        i.next(".validate")
+          .html(
+            ierror
+              ? i.attr("data-msg") != undefined
+                ? i.attr("data-msg")
+                : "wrong Input"
+              : ""
+          )
+          .show("blind");
+      }
+    });
+    if (ferror) return false;
+
+    var this_form = $(this);
+    var action = $(this).attr("action");
+
+    if (!action) {
+      this_form.find(".loading").slideUp();
+      this_form
+        .find(".error-message")
+        .slideDown()
+        .html("The form action property is not set!");
+      return false;
+    }
+
+    this_form.find(".sent-message").slideUp();
+    this_form.find(".error-message").slideUp();
+    this_form.find(".loading").slideDown();
+
+    if ($(this).data("recaptcha-site-key")) {
+      var recaptcha_site_key = $(this).data("recaptcha-site-key");
+      grecaptcha.ready(function () {
+        grecaptcha
+          .execute(recaptcha_site_key, {
+            action: $(this).location.href,
+          })
+          .then(function (token) {
+            submitEmail(
+              this_form,
+              action,
+              this_form.serialize() + "&recaptcha-response=" + token
+            );
+          });
+      });
+    } else {
+    }
+
+    return true;
+  });
+
+  function submitEmail(this_form, action, data) {
+    var xmlHttp = new XMLHttpRequest();
+
+
+    $.ajax({
+      type: "POST",
+      url: action,
+      data: data,
+      timeout: 40000,
+    })
+      .done(function (msg) {
+        if (msg.trim() == "OK") {
+          this_form.find(".loading").slideUp();
+          this_form.find(".sent-message").slideDown();
+          this_form.find("input:not(input[type=submit]), textarea").val("");
+        } else {
+          this_form.find(".loading").slideUp();
+          if (!msg) {
+            msg =
+              "Form submission failed and no error message returned from: " +
+              action +
+              "<br>";
+          }
+          this_form.find(".error-message").slideDown().html(msg);
+        }
+      })
+      .fail(function (data) {
+        console.log(data);
+        var error_msg = "Form submission failed!<br>";
+        if (data.statusText || data.status) {
+          error_msg += "Status:";
+          if (data.statusText) {
+            error_msg += " " + data.statusText;
+          }
+          if (data.status) {
+            error_msg += " " + data.status;
+          }
+          error_msg += "<br>";
+        }
+        if (data.responseText) {
+          error_msg += data.responseText;
+        }
+        this_form.find(".loading").slideUp();
+        this_form.find(".error-message").slideDown().html(error_msg);
+      });
+  }
+
+  // get the data from the AJAX call
+  function getFormData($form) {
+    var unindexed_array = $form.serializeArray();
+    var indexed_array = {};
+
+    $.map(unindexed_array, function (n, i) {
+      indexed_array[n["name"]] = n["value"];
+    });
+
+    return indexed_array;
+  }
+  
+
+  // send the email using mailto
+  function sendEmail($form) {
+    var data = getFormData($form);
+    var email = data.email;
+    var subject = data.subject;
+    var message = data.message;
+    var cc = data.cc;
+    var bcc = data.bcc;
+    var mailto_link = "mailto:christianvaldez608@gmail.com";
+
+    // append cc and bcc
+    if (cc) {
+      mailto_link += "?cc=" + cc;
+    }
+    if (bcc) {
+      mailto_link += "&bcc=" + bcc;
+    }
+
+    // append subject and body
+    mailto_link += "&subject=" + subject + "&body=" + message;
+
+    window.open(mailto_link, "_blank");
+  }
+})(jQuery);
+</script>
